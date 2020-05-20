@@ -1,3 +1,4 @@
+'use strict'
 // select all elements
 const start = document.getElementById("start");
 const quiz = document.getElementById("quiz");
@@ -235,8 +236,10 @@ function scoreRender(){
 }
 
 
-
-
+// when user tries to refresh the page in middle of the quiz.
+window.onbeforeunload = function() {
+    return "Progress will be lost if you leave the page, are you sure?";
+  };
 
 
 
