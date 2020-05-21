@@ -1,7 +1,7 @@
 body{
     font-size: 20px;
     font-family: monospace;
-    background-color: #363636;
+    background-color:#1b262c ;
 }
 
 #container{
@@ -11,10 +11,10 @@ body{
     height: 480px;
     width : 756px;
     border-radius: 5px;
-    border : 2px solid#baf1a1;
+    border : 1.5px solid #ffacb7;
     box-shadow: 0px 5px 15px 0px;
     position: relative;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
 }
 #start{
     
@@ -24,11 +24,11 @@ body{
     word-break: break-all;
     width:100px;
     height:100px;
-    border : 1px solid#baf1a1;
+    border : 1px solid#363636;
     text-align: center;
     cursor: pointer;
     position: absolute;
-    left:300px;
+    left:340px;
     top:50px;
     color : #363636;
 }
@@ -55,32 +55,33 @@ body{
     height : 125px;
     position: absolute;
     right:0;
-    top:40px;
+    top:25px;
 }
 #question p{
     margin : 0;
     padding : 15px;
-    font-size: 1.35em ;
+    font-size: 1.45em ;
 }
 
 #choices{
     width : 480px;
     position: absolute;
     right : 0;
-    top : 220px;
+    top : 230px;
     padding : 10px
 }
 .choice{
     display: inline-block;
     width : 135px;
     text-align: center;
-    border : 1px solid #baf1a1;
+    border : 1px solid #1b262c;
     border-radius: 5px;
     cursor: pointer;
     padding : 7px;
+    background-color: #ffbcbc;
 }
 .choice:hover{
-    border : 2px solid #ffacb7;
+    border : 2px solid #dcd6f7;
     font-weight: bold;
 }
 
@@ -98,7 +99,7 @@ body{
     width : 150px;
     height : 10px;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: #dbdbdb;
     margin-left : 25px;
 }
 #timeGauge{
@@ -119,14 +120,14 @@ body{
 .prog{
     width : 25px;
     height : 25px;
-    border: 1px solid #000;
+    border: 1px solid #363636;
     display: inline-block;
     border-radius: 50%;
     margin-left : 5px;
     margin-right : 5px;
 }
 #scoreContainer{
-    margin : 20px auto;
+    margin : 1px auto;
     background-color: white;
     opacity: 0.8;
     height: 480px;
